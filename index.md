@@ -13,7 +13,9 @@ The first project was the build of a church with a hand pump well for fresh wate
 
 ## Current backing goal:
 That's why we are asking for your help now. We have recently completed the architectural plans and estimated the project costs at €20,000. This is mainly for building materials and logistics costs, as the actual construction will be undertaken by volunteers like ourselves.
+
 See how you can help with our [fundraiser campaign](https://gogetfunding.com/savemadagascar/)
+
 Or visit us on [Facebook](https://www.facebook.com/smsavemadagascar/posts/102544191692840) and share our story.
 
 ## Looking into the future:
@@ -23,4 +25,3 @@ We believe we can change the future of the unfortunate at Toliara, providing opp
 
 Or rather, many, many small actions, from individuals like you and me!
 Would you join in? Every little helps!
- 
