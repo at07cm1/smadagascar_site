@@ -261,11 +261,11 @@ a.badgeToDecorate {
 	color:#ffffff;
 }
 
-
+/* 
 .fa {
   padding: 20px;
-  font-size: 80px;
-  width: 80px;
+  font-size: 60px;
+  width: 60px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -273,7 +273,7 @@ a.badgeToDecorate {
 .fa-facebook {
   background: #3B5998;
   color: white;
-}
+} */
 /* ============ */
 
 .quote-card {
