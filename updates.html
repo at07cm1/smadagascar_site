@@ -9,8 +9,8 @@ navigation_weight: 2
 		{% for post in site.posts %}
 			{% if post.category == "Updates" %}
 				<div class="blog-post spacing">
-					<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-					<div>{{ post }}</div>
+					<h1><a style="text-decoration:none" href="{{ post.url }}">{{ post.title }}</a></h1>
+					<div>{{ post.content }}</div>
 				</div>
 			{% endif %}
 		{% endfor %}

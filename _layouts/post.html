@@ -1,17 +1,8 @@
----
-layout: default
----
 <div class="container">
 	<h2 class="spacing">{{ page.title }}</h2>
 
 	<div class="blog-post spacing">
 		<p class="summary">
-			{% if page.skills %}
-				{% for s in page.skills %}
-					{% capture askill %}{{ s }}{% endcapture %}
-					{% include skill_badge.html skill=askill %}
-				{% endfor %}
-			{% endif %}
 		</p>
 		{{ content }}
 	</div>
