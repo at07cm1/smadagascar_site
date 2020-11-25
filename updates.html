@@ -9,35 +9,8 @@ navigation_weight: 2
 		{% for post in site.posts %}
 			{% if post.category == "Updates" %}
 				<div class="blog-post spacing">
-					<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-					{% if post.avatar %}
-						<div class="columns">
-							<div class="column one_third">
-								<a href="{{ post.url }}"><img class="rounded-img" src={{ post.avatar }} width="200"></a>
-							</div>
-							<div class="column two_thirds" style="text-align:left">
-								<div>{{ post.excerpt | truncate: 200 }}</div>
-								{% if post.skills %}
-									<div>
-										{% for s in post.skills %}
-											{% capture askill %}{{ s }}{% endcapture %}
-											{% include skill_badge.html skill=askill %}
-										{% endfor %}
-									</div>
-								{% endif %}
-							</div>
-						</div>
-					{% else %}
-						<div>{{ post.excerpt | truncate: 200 }}</div>
-						{% if post.skills %}
-							<div>
-								{% for s in post.skills %}
-									{% capture askill %}{{ s }}{% endcapture %}
-									{% include skill_badge.html skill=askill %}
-								{% endfor %}
-							</div>
-						{% endif %}
-					{% endif %}
+					<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+					<div>{{ post }}</div>
 				</div>
 			{% endif %}
 		{% endfor %}
