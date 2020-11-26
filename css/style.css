@@ -279,12 +279,14 @@ a.badgeToDecorate {
 	border-radius: 17px;
 	font-style: italic;
 }
+
 .quote-card p {
 	font-size: 22px;
 	line-height: 1.5;
 	margin: 0;
 	max-width: 100%;
 }
+
 .quote-card cite {
 	font-size: 16px;
 	margin-top: 10px;
@@ -292,6 +294,7 @@ a.badgeToDecorate {
 	font-weight: 200;
 	opacity: 0.8;
 }
+
 .quote-card:before {
 	content: "“";
 	position: absolute;
@@ -301,6 +304,7 @@ a.badgeToDecorate {
 	color: rgba(238, 238, 238, 0.8);
 	font-weight: normal;
 }
+
 .quote-card:after {
 	content: "”";
 	position: absolute;
@@ -317,4 +321,21 @@ a.badgeToDecorate {
 	  font-size: 22em;
 	  right: -25px;
 	}
+}
+
+/* ------------ */
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 400px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.gallery img:hover {
+	outline: 3px solid #09670b;
 }
