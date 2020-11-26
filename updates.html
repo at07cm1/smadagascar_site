@@ -14,16 +14,16 @@ navigation_weight: 2
 					{% if post.gallery_images %}
 						<div>
 							{% for img in post.gallery_images %}
-								<div class="blog-post gallery">
+								<div class="gallery">
 								  <a target="_blank" href="{{ img }}">
 								    <img src="{{ img }}" width="600" height="400">
 								  </a>
 								</div>
 							{% endfor %}
+							<div style="clear:both"></div>
 						</div>
 					{% endif %}
 				</div>
-
 			{% endif %}
 		{% endfor %}
 	</div>

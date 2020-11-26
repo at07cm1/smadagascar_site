@@ -8,6 +8,7 @@ layout: default
 	<div class="blog-post spacing">
 		{{ content }}
 		{% if page.gallery_images %}
+			<div>
 			{% for img in page.gallery_images %}
 				<div class="gallery">
 					<a target="_blank" href="{{ img }}">
@@ -15,6 +16,8 @@ layout: default
 					</a>
 				</div>
 			{% endfor %}
+			<div style="clear:both"></div>
+			</div>
 		{% endif %}
 	</div>
 </div>
