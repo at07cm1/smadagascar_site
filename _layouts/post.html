@@ -9,24 +9,24 @@ layout: default
 		{{ content }}
 		{% if page.gallery_images %}
 			{% assign c = page.gallery_images.size | divided_by: 3 %}
-			<p>{{c}}</p>
 			<div>
 				<div class="gallery">
 					<div class="g-column">
 						{% for img in page.gallery_images limit:c %}
-							<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
+							<a href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
 						{% endfor %}
 					</div>
 
 					<div class="g-column">
 						{% for img in page.gallery_images limit:c offset: c %}
-							<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
+							<a href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
 						{% endfor %}
 					</div>
 
 					<div class="g-column">
-						{% for img in page.gallery_images limit:c offset: c | times: 2 %}
-							<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
+						{% assign off = c | times: 2 %}
+						{% for img in page.gallery_images offset: off %}
+							<a  href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
 						{% endfor %}
 					</div>
 				</div>
