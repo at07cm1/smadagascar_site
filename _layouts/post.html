@@ -11,6 +11,12 @@ layout: default
 			<div>
 				<div class="gallery">
 					<div class="g-column">
+						{% for img in page.gallery_images %}
+							<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
+						{% endfor %}
+					</div>
+
+					<div class="g-column">
 						{% for img in page.gallery_images offset: 3 %}
 							<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
 						{% endfor %}
@@ -18,12 +24,6 @@ layout: default
 
 					<div class="g-column">
 						{% for img in page.gallery_images offset: 6 %}
-							<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
-						{% endfor %}
-					</div>
-
-					<div class="g-column">
-						{% for img in page.gallery_images offset: 9 %}
 							<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
 						{% endfor %}
 					</div>
