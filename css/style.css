@@ -353,6 +353,10 @@ a.badgeToDecorate {
   box-sizing: border-box;
 }
 
+.gallery img:hover {
+	outline: 3px solid #09670b;
+}
+
 /* Create four equal columns that sits next to each other */
 .g-column {
   -ms-flex: 33%; /* IE10 */
