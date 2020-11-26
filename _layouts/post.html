@@ -12,13 +12,11 @@ layout: default
 			<div>
 				<div class="gallery">
 					{% for img in page.gallery_images %}
-						{% if forloop.index | modulo:4 == c %}
-							 <div class="g-column">
+
+							 <div {% if forloop.index | modulo:4 == c %} class="g-column" {% endif %}>
 									<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
 							 </div>
-						 {% else %}
-						 		<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
-						 {% endif %}
+
 					{% endfor %}
 					
 				</div>
