@@ -325,17 +325,17 @@ a.badgeToDecorate {
 
 /* ------------ */
 
-div.gallery {
+.gallery {
   margin: 5px;
   float: left;
   height: 200px;
 }
 
-div.gallery img {
+.gallery img {
   height: 100%;
   width: auto;
 }
 
-div.gallery img:hover {
+.gallery img:hover {
 	outline: 3px solid #09670b;
 }
