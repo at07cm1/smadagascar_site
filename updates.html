@@ -11,16 +11,17 @@ navigation_weight: 2
 				<div class="blog-post spacing">
 					<h1><a style="text-decoration:none" href="{{ post.url }}">{{ post.title }}</a></h1>
 					<div>{{ post.content }}</div>
+					{% if post.gallery_images %}
+						{% for img in post.gallery_images %}
+							<div class="gallery">
+							  <a target="_blank" href="{{ img }}">
+							    <img src="{{ img }}" width="600" height="400">
+							  </a>
+							</div>
+						{% endfor %}
+					{% endif %}
 				</div>
-				{% if post.gallery_images %}
-					{% for img in post.gallery_images %}
-						<div class="gallery">
-						  <a target="_blank" href="{{ img }}">
-						    <img src="{{ img }}" width="600" height="400">
-						  </a>
-						</div>
-					{% endfor %}
-				{% endif %}
+
 			{% endif %}
 		{% endfor %}
 	</div>
