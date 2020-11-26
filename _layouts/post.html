@@ -8,17 +8,28 @@ layout: default
 	<div class="blog-post spacing">
 		{{ content }}
 		{% if page.gallery_images %}
-			{% assign c = page.gallery_images.size | modulo: 4 %}
 			<div>
 				<div class="gallery">
-					{% for img in page.gallery_images %}
-
-							 <div {% if forloop.index | modulo:4 == c %} class="g-column" {% endif %}>
-									<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
-							 </div>
-
-					{% endfor %}
-					
+					<div class="g-column">
+						{% for img in page.gallery_images offset: 3 %}
+							<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
+						{% endfor %}
+					</div>
+					<div class="g-column">
+						{% for img in page.gallery_images offset: 6 %}
+							<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
+						{% endfor %}
+					</div>
+					<div class="g-column">
+						{% for img in page.gallery_images offset: 9 %}
+							<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
+						{% endfor %}
+					</div>
+					<div class="g-column">
+						{% for img in page.gallery_images offset: 12 %}
+							<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
+						{% endfor %}
+					</div>
 				</div>
 			<!-- <div style="clear:both"></div> -->
 			</div>
