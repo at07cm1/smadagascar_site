@@ -8,22 +8,24 @@ layout: default
 	<div class="blog-post spacing">
 		{{ content }}
 		{% if page.gallery_images %}
+			{% assign c = page.gallery_images.size | modulo: 3 %}
+			<p>{{c}}</p>
 			<div>
 				<div class="gallery">
 					<div class="g-column">
-						{% for img in page.gallery_images limit:3 %}
+						{% for img in page.gallery_images limit:c %}
 							<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
 						{% endfor %}
 					</div>
 
 					<div class="g-column">
-						{% for img in page.gallery_images limit:3 offset: 3 %}
+						{% for img in page.gallery_images limit:c offset: c %}
 							<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
 						{% endfor %}
 					</div>
 
 					<div class="g-column">
-						{% for img in page.gallery_images limit:3 offset: 6 %}
+						{% for img in page.gallery_images limit:c offset: c | times: 2 %}
 							<a target="_blank" href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
 						{% endfor %}
 					</div>
