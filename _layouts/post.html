@@ -18,13 +18,14 @@ layout: default
 					</div>
 
 					<div class="g-column">
-						{% for img in page.gallery_images limit:c offset: c %}
+						{% assign lim = c | plus: 1 %}
+						{% for img in page.gallery_images limit:lim offset: c %}
 							<a href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
 						{% endfor %}
 					</div>
 
 					<div class="g-column">
-						{% assign off = c | times: 2 %}
+						{% assign off = c | times: 2 | plus: 1%}
 						{% for img in page.gallery_images offset: off %}
 							<a  href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
 						{% endfor %}
