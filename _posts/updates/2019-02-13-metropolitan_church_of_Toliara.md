@@ -12,6 +12,7 @@ gallery_images:
   - /media/post_pictures/metropolitan_church_of_toliara/6.jpg
   - /media/post_pictures/metropolitan_church_of_toliara/7.jpg
   - /media/post_pictures/metropolitan_church_of_toliara/8.jpg
+  - /media/post_pictures/metropolitan_church_of_toliara/9.jpg
 ---
 
 As a legal entity, the metropolis is entitled to buy, build new, and convert existing buildings for charitable purposes. This made the building of the metropolitan church of Toliara our first milestone in our journey to complete a set of infrastructure buildings in the vicinity.
