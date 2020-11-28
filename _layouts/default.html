@@ -12,7 +12,7 @@
 		<meta property="og:type"        content="website" />
 		<meta property="og:url"                content="{{ page.url }}" />
 		<meta property="og:title"              content="{{ page.title }}" />
-		<meta property="og:description"        content="{{ page.excerpt | truncate: 100 }}" />
+		<meta property="og:description"        content="{% if page.fb_description %} {{page.fb_description}} {% else %} {{ page.excerpt | truncate: 100}} {% endif %}" />
 		{% if page.fb_avatar %}
 		<meta property="og:image"              content="{{ page.fb_avatar }}" />
 		{% endif %}

@@ -4,6 +4,7 @@ layout: post
 category: Updates
 avatar: "/media/post_pictures/water_pump_well/well_square.jpg"
 fb_avatar: "/media/post_pictures/water_pump_well/well_square.jpg"
+fb_description: "We built a water pump well to relieve the locals from the daily laboured access to clean water, a basic necessity for life support."
 gallery_images:
   - /media/post_pictures/water_pump_well/1.jpg
   - /media/post_pictures/water_pump_well/2.jpg
