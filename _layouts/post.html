@@ -37,16 +37,17 @@ layout: default
 	</div>
 </div>
 
-<div class="fb-share-button" data-href="{{ page.url }}" data-layout="button_count" data-size="large">
-<a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsmadagascar.com%2Fupdates%2F2019%2F02%2F13%2Fmetropolitan_church_of_Toliara.html&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share our story</a>
-</div>
 
+<meta property="og:url"                content="{{ page.url }}" />
+<meta property="og:title"              content="{{ page.title }}" />
+<meta property="og:description"        content="{{ page.excerpt | truncate: 300 }}" />
+<meta property="og:image"              content="{{ page.avatar }}" />
 
 <!-- Your share button code -->
 <div class="fb-share-button"
-data-href="{{ page.url }}"
-data-layout="button_count"
-size="large">
+	data-href="{{ page.url }}"
+	data-layout="button_count"
+	size="large">
 </div>
 
 <!-- <div class="container">
