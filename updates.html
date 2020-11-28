@@ -10,18 +10,21 @@ navigation_weight: 2
 		{% for post in site.posts %}
 			{% if post.category == "Updates" %}
 				<div class="blog-post spacing">
-					<h3><a href="{{ post.url }}">{{ post.title }}</a></h3><h4 style="text-align: right">{{ post.date | date: '%B %Y' }}</h4>
+					<div style="clear: both">
+					<h3 style="float: left"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+					<h4 style="float: right">{{ post.date | date: '%B %Y' }}</h4>
+					</div>
 					{% if post.avatar %}
 						<div class="columns">
 							<div class="column one_third">
 								<a href="{{ post.url }}"><img class="rounded-img" src={{ post.avatar }} width="200"></a>
 							</div>
 							<div class="column two_thirds" style="text-align:left">
-								<div>{{ post.excerpt | truncate: 200 }}</div>
+								<div>{{ post.excerpt | truncate: 300 }}</div>
 							</div>
 						</div>
 					{% else %}
-						<div>{{ post.excerpt | truncate: 200 }}</div>
+						<div>{{ post.excerpt | truncate: 300 }}</div>
 					{% endif %}
 				</div>
 				<hr>
