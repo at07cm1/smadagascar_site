@@ -78,13 +78,11 @@
 			</div> -->
 
     {% assign posts=site.posts | where:"lang", page.lang | sort: 'lang' %}
-    <footer>
         <ul>
         {% for post in posts %}
         <li><a href="{{ post.url }}" title="View in {{post.lang}}">{{ post.lang }}</a></li>
         {% endfor %}
         </ul>
-    </footer>
     {% endif %}
 
 		</footer>
