@@ -14,8 +14,8 @@ navigation_weight: 2
 						<div class="column">
 							<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 						</div>
-						<div class="column">
-							<h4 style="float: right">{{ post.date | date: '%B %Y' }}</h4>
+						<div class="column" style="float: right">
+							<h4>{{ post.date | date: '%B %Y' }}</h4>
 						</div>
 					</div>
 					{% if post.avatar %}
