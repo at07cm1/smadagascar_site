@@ -177,6 +177,10 @@ p.sub-text {
 	padding-right: 20px;
 }
 
+.column.one_third.a img:hover {
+	outline: 3px solid #09670b;
+}
+
 .blog-post {
 	width: 750px;
 	margin-left: auto;
