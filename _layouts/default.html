@@ -73,11 +73,10 @@
 		</div>
 		<footer>
 
-				{% assign posts=site.html_pages | where:"lang_id", page.lang_id %}
     		<!-- {% assign posts=site.posts | where:"lang", page.lang | sort: 'lang' %} -->
 				<h5>View in</h5>
         <ul>
-        {% for post in posts %}
+        {% for post in site.html_pages %}
 					{% if post.lang_id == page.lang_id %}
 	        	<li><a href="{{ post.url }}">{{ post.lang }}</a></li>
 					{% endif %}
