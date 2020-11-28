@@ -4,6 +4,7 @@ layout: post
 category: Updates
 avatar: "/media/post_pictures/metropolitan_church_of_toliara/3_square.jpg"
 fb_avatar: "/media/post_pictures/metropolitan_church_of_toliara/2.jpg"
+fb_description: "We built and registered the local metropolitan church, which established the metropolis as a legal entity, enabling our subsequent actions."
 gallery_images:
   - /media/post_pictures/metropolitan_church_of_toliara/1.jpg
   - /media/post_pictures/metropolitan_church_of_toliara/5.jpg
