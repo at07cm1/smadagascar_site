@@ -2,6 +2,8 @@
 title: "Metropolitan church of Toliara"
 layout: post
 category: Updates
+lang_id: well
+lang: en
 avatar: "/media/post_pictures/metropolitan_church_of_toliara/3_square.jpg"
 fb_avatar: "/media/post_pictures/metropolitan_church_of_toliara/2.jpg"
 fb_description: "We built and registered the local metropolitan church, which established the metropolis as a legal entity, enabling our subsequent actions."

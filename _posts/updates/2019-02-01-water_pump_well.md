@@ -2,6 +2,8 @@
 title: "Water pump well"
 layout: post
 category: Updates
+lang_id: church
+lang: en
 avatar: "/media/post_pictures/water_pump_well/well_square.jpg"
 fb_avatar: "/media/post_pictures/water_pump_well/well_square.jpg"
 fb_description: "We built a water pump well to relieve the locals from the daily laboured access to clean water, a basic necessity for life support."
