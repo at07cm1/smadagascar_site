@@ -72,18 +72,17 @@
 			{{ content }}
 		</div>
 		<footer>
-			<!-- <div id="demo"></div> -->
-			<!-- <div class="container">
-				<p class="center-text"> <a href="http://cloudcannon.com">Template borrowed from CloudCannon</a></p>
-			</div> -->
 
-    {% assign posts=site.posts | where:"lang", page.lang | sort: 'lang' %}
+				{% assign posts=site.html_pages | where:"lang", page.lang | sort: 'lang' %}
+    		<!-- {% assign posts=site.posts | where:"lang", page.lang | sort: 'lang' %} -->
         <ul>
         {% for post in posts %}
-        <li><a href="{{ post.url }}" title="View in {{post.lang}}">{{ post.lang }}</a></li>
+					{% if post.name == page.name %}
+	        	<li><a href="{{ post.url }}" title="View in {{post.lang}}">{{ post.lang }}</a></li>
+					{% endif %}
         {% endfor %}
         </ul>
-    {% endif %}
+
 
 		</footer>
 		<!-- Optional JavaScript -->
