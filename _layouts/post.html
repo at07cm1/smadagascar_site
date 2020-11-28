@@ -13,21 +13,21 @@ layout: default
 				<div class="gallery">
 					<div class="g-column">
 						{% for img in page.gallery_images limit:c %}
-							<a href="{% link {{ img }} %}"><img src="{% link {{ img }} %}" style="width:100%"></a>
+							<a href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
 						{% endfor %}
 					</div>
 
 					<div class="g-column">
 
 						{% for img in page.gallery_images limit:c offset: c %}
-							<a href="{% link {{ img }} %}"><img src="{% link {{ img }} %}" style="width:100%"></a>
+							<a href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
 						{% endfor %}
 					</div>
 
 					<div class="g-column">
 						{% assign off = c | times: 2 %}
 						{% for img in page.gallery_images offset: off %}
-							<a  href="{% link {{ img }} %}"><img src="{% link {{ img }} %}" style="width:100%"></a>
+							<a  href="{{ img }}"><img src="{{ img }}" style="width:100%"></a>
 						{% endfor %}
 					</div>
 				</div>
