@@ -76,6 +76,17 @@
 			<!-- <div class="container">
 				<p class="center-text"> <a href="http://cloudcannon.com">Template borrowed from CloudCannon</a></p>
 			</div> -->
+
+    {% assign posts=site.posts | where:"lang", page.lang | sort: 'lang' %}
+    <footer>
+        <ul>
+        {% for post in posts %}
+        <li><a href="{{ post.url }}" title="View in {{post.lang}}">{{ post.lang }}</a></li>
+        {% endfor %}
+        </ul>
+    </footer>
+    {% endif %}
+
 		</footer>
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
