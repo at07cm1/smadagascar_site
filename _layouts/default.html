@@ -73,12 +73,12 @@
 		</div>
 		<footer>
 
-				{% assign posts=site.html_pages | where:"name", page.name %}
+				{% assign posts=site.html_pages | where:"lang_id", page.lang_id %}
     		<!-- {% assign posts=site.posts | where:"lang", page.lang | sort: 'lang' %} -->
-				<h5>View in {{ page.name }}</h5>
+				<h5>View in</h5>
         <ul>
         {% for post in posts %}
-					{% if post.name == page.name %}
+					{% if post.lang_id == page.lang_id %}
 	        	<li><a href="{{ post.url }}">{{ post.lang }}</a></li>
 					{% endif %}
         {% endfor %}
