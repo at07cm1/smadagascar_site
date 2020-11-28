@@ -12,7 +12,9 @@
 		<meta property="og:url"                content="{{ page.url }}" />
 		<meta property="og:title"              content="{{ page.title }}" />
 		<meta property="og:description"        content="{{ page.excerpt | truncate: 300 }}" />
-		<meta property="og:image"              content="{{ page.avatar }}" />
+		{% if page.fb_avatar %}
+			<meta property="og:image"              content="{{ page.fb_avatar }}" />
+		{% endif %}
 	</head>
 	<body>
 		<!-- Load Facebook SDK for JavaScript -->
