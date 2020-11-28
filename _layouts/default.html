@@ -72,9 +72,9 @@
 			{{ content }}
 		</div>
 		<footer>
-
+			<div class="container">
+				<nav class="main-nav">
     		<!-- {% assign posts=site.posts | where:"lang", page.lang | sort: 'lang' %} -->
-				<h5>View in</h5>
         <ul>
         {% for post in site.html_pages %}
 					{% if post.lang_id == page.lang_id %}
@@ -82,8 +82,8 @@
 					{% endif %}
         {% endfor %}
         </ul>
-
-
+				</nav>
+			</div>
 		</footer>
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
