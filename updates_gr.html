@@ -1,0 +1,40 @@
+---
+layout: default
+title: Δράσεις
+navigation_weight: 2
+lang_id: updates
+lang: gr
+---
+
+<div class="container">
+	<div class="blog-posts spacing">
+		<h1>{{ site.data.translations[page.lang].Updates }}:</h1>
+		{% include updates_layout.html %}
+	</div>
+</div>
+
+
+<!-- <div class="container">
+	<div class="blog-posts spacing">
+		{% for post in site.posts %}
+			{% if post.category == "Updates" %}
+				<div class="blog-post spacing">
+					<h1><a style="text-decoration:none" href="{{ post.url }}">{{ post.title }}</a></h1>
+					<div>{{ post.content }}</div>
+					{% if post.gallery_images %}
+						<div>
+							{% for img in post.gallery_images %}
+								<div class="gallery">
+								  <a target="_blank" href="{{ img }}">
+								    <img src="{{ img }}" width="600" height="400">
+								  </a>
+								</div>
+							{% endfor %}
+							<div style="clear:both"></div>
+						</div>
+					{% endif %}
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+</div> -->
