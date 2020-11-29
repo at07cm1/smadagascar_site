@@ -1,0 +1,104 @@
+---
+layout: default
+title: "Συντελεστές"
+navigation_weight: 3
+lang_id: about
+lang: gr
+---
+
+<div class="container">
+	<div class="blog-posts">
+		<div class="blog-post spacing">
+			<!-- <h1>{{ site.data.translations[page.lang].who }}</h1> -->
+
+			<div class="columns spacing">
+				<div class="column one_third">
+					<img class="rounded-img" src="/media/profile_pictures/Maria_Christofi_colour_square.jpg" width="200" alt="Maria Christofi">
+				</div>
+				<div class="column two_thirds" style="text-align:left">
+						<!-- <h3>{{ site.data.translations[page.lang].Maria }}</h3> -->
+						<!-- {% include site.data.language_links[page.lang].Maria_bio %} -->
+				</div>
+			</div>
+
+			<div class="columns spacing">
+				<div class="column one_third">
+					<img class="rounded-img" src="/media/profile_pictures/Stelios_Stylianou_colour_square.jpg" width="200" alt="Stelios Stylianou">
+				</div>
+				<div class="column two_thirds" style="text-align:left">
+					<!-- <h3>{{ site.data.translations[page.lang].Stelios }}</h3> -->
+					<!-- {% include site.data.language_links[page.lang].Stelios_bio %} -->
+				</div>
+			</div>
+
+			<div class="columns spacing">
+				<div class="column one_third">
+					<img class="rounded-img" src="/media/profile_pictures/Konstantinos_Stylianou_grayscale_square.jpg" width="200" alt="Konstantinos Stylianou">
+				</div>
+				<div class="column two_thirds" style="text-align:left">
+					<!-- <h3>{{ site.data.translations[page.lang].Kwnnos }}</h3> -->
+					<p>
+						Konstantinos Stylianou was born in Cyprus in 1987. He is a theologist, conservator of antiquities / works of art, photographer and hagiographer, responsible for the promotion of the acts of the team. He lives and works in Greece on his StyliArt studio and has collaborators in multiple countries. Trying to offer to those that actually need it, in 2014 Konstantinos started offering hagiography lessons as a volunteer, and in 2017 he organized an individual session of hagiography lessons in Indonesia. In parallel, he spent three years in Germany offering his duty to the local "Orthodox Mission Fraternity" in "<a href="https://www.facebook.com/groups/1427476224213310">Evaggelistis Marcos</a>".
+					</p>
+				</div>
+			</div>
+
+			<div class="columns spacing">
+				<div class="column one_third">
+					<img class="rounded-img" src="/media/profile_pictures/Charalambos_Rossides_colour_square.jpg" width="200" alt="Charalambos Rossides">
+				</div>
+				<div class="column two_thirds" style="text-align:left">
+						<!-- <h3>{{ site.data.translations[page.lang].Harry }}</h3> -->
+						<p>
+						Born in Cyprus in 1989, Harry (Charalambos) is a computer engineer helping with the technical needs of the team. Being a caring and supportive person, Harry has been one of the first members to join <a href="https://www.facebook.com/etea.cy">ETEA</a> rescue units Cyprus. Harry was one of the members to support the wildfire fighting teams in Grammaticos, Greece, 2014. Always being willing and available to help those in need, Harry would never refuse to offer a hand of help.
+						</p>
+				</div>
+			</div>
+
+		</div>
+		<!-- <div class="blog-post">
+			<blockquote class="quote-card blue-card">
+				<p>
+				</p>
+				<cite>
+				</cite>
+			</blockquote>
+		</div> -->
+
+		<!-- {% for post in site.posts %}
+			{% if post.category == "Interests" %}
+				<div class="blog-post spacing">
+					<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+					{% if post.avatar %}
+						<div class="columns">
+							<div class="column one_third">
+								<a href="{{ post.url }}"><img class="rounded-img" src={{ post.avatar }} width="200"></a>
+							</div>
+							<div class="column two_thirds" style="text-align:left">
+								<div>{{ post.excerpt | truncate: 200 }}</div>
+								{% if post.skills %}
+									<div>
+										{% for s in post.skills %}
+											{% capture askill %}{{ s }}{% endcapture %}
+											{% include skill_badge.html skill=askill %}
+										{% endfor %}
+									</div>
+								{% endif %}
+							</div>
+						</div>
+					{% else %}
+						<div>{{ post.excerpt | truncate: 200 }}</div>
+						{% if post.skills %}
+							<div>
+								{% for s in post.skills %}
+									{% capture askill %}{{ s }}{% endcapture %}
+									{% include skill_badge.html skill=askill %}
+								{% endfor %}
+							</div>
+						{% endif %}
+					{% endif %}
+				</div>
+				{% endif %}
+		{% endfor %} -->
+	</div>
+</div>
