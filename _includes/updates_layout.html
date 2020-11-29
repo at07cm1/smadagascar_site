@@ -1,5 +1,5 @@
 {% for post in site.posts %}
-  {% if post.category == "Updates" %}
+  {% if post.category == "Updates" and post.lang_id == page.lang_id %}
     <div class="blog-post spacing">
       <div class="columns">
         <div class="column">
