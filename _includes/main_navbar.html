@@ -1,14 +1,14 @@
 <div class="container">
   <nav class="main-nav">
-    <span>
+    <div class="columns">
       <ul>
       {% for post in site.html_pages %}
         {% if post.lang_id == page.lang_id %}
-          <li {% if post.lang == page.lang %}class="active"{% endif %}><a href="{{ post.url }}">{{ post.lang }}</a></li>
+          <li style="font-size:1em" {% if post.lang == page.lang %}class="active"{% endif %}><a href="{{ post.url }}">{{ post.lang }}</a></li>
         {% endif %}
       {% endfor %}
       </ul>
-    </span>
+    </div>
   </nav>
 </div>
 <div class="container">
