@@ -50,7 +50,7 @@
 			<div class="container">
 				<nav class="main-nav">
         <ul>
-				{% assign allPages = site.html_pages | concat: site.posts %}
+				{% assign allPages = site.html_pages | concat: site.posts | sort %}
         {% for p in allPages %}
 					{% if p.lang_id == page.lang_id %}
 						<li {% if p.lang == page.lang %}class="active"{% endif %}><a href="{{ p.url }}" {% if p.url == page.url %}class="navLink active"{% else %}class="navLink"{% endif %}>{{ p.lang }}</a></li>
