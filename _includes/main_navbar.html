@@ -13,5 +13,5 @@
       {% endfor %}
     </ul>
   </nav>
-  <h1><a href="https://gogetfunding.com/savemadagascar/"><img class="ico-nav" src="/media/logo/logo_smmadagascar_colour_clean.png"></a> <a href="/">Save Madagascar</a></h1>
+  <h1><a href="https://gogetfunding.com/savemadagascar/"><img class="ico-nav" src="/media/logo/logo_smmadagascar_colour_clean.png"></a> {% for p in navigation_pages %}{% if p.lang_id=="home" and p.lang == page.lang %}<a href="{{ p.url }}">Save Madagascar</a>{% endif %}{% endfor %}</h1>
 </div>
