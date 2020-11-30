@@ -1,14 +1,14 @@
 <nav class="main-nav">
   <ul>
-        {% assign pages = site.html_pages %}
-        {% assign icoNavbarPages = "contact, support, fundraiser" | split: ", " %}
-        {% for p in pages %}
-          {% if icoNavbarPages contains p and p.lang == page.lang %}
-          <li>
-            <a href="{{ p.url }}"><img class="ico-nav" src="/media/logo/contact.svg" alt="Contact us page."></a>
-          </li>
-          {% endif %}
-        {% endfor %}
+    {% assign pages = site.html_pages %}
+    {% assign icoNavbarPages = "contact, support" | split: ", " %}
+    {% for p in pages %}
+      {% if icoNavbarPages contains p.lang_id and p.lang == page.lang %}
+      <li>
+        <a href="{{ p.url }}"><img class="ico-nav" src="/media/logo/contact.svg" alt="Contact us page."></a>
+      </li>
+      {% endif %}
+    {% endfor %}
 
     <li>
       <a href=/contact.html><img class="ico-nav" src="/media/logo/contact.svg" alt="Contact us page."></a>
