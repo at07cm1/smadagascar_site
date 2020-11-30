@@ -9,9 +9,9 @@ lang: en
 <div class="container">
 	<div class="blog-posts spacing">
 		<h1>{{ site.data.translations[page.lang].Stories }}:</h1>
-		{% include post_list_layout.html type="Stories" %}
+		{% include post_list_layout.html content="Stories" %}
 		<h1>{{ site.data.translations[page.lang].Updates }}:</h1>
-		{% include post_list_layout.html type="Updates" %}
+		{% include post_list_layout.html content="Updates" %}
 	</div>
 </div>
 

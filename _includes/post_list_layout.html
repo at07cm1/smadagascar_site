@@ -1,5 +1,5 @@
 {% for post in site.posts %}
-  {% if post.category == {{ include.type }} and post.lang == page.lang %}
+  {% if post.category == {{ include.content }} and post.lang == page.lang %}
     <div class="blog-post spacing">
       <div class="columns">
         <div class="column">
