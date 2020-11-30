@@ -28,26 +28,14 @@
 		}(document, 'script', 'facebook-jssdk'));</script>
 
 		<header>
-			<div class="container">
-				<nav class="main-nav">
-					<ul>
-						{% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
-								{% for p in navigation_pages %}{% if p.navigation_weight and p.lang == page.lang %}<li {% if p.url == page.url %}class="active"{% endif %}>
-									<a href="{{ p.url }}" {% if p.url == page.url %}class="navLink active"{% else %}class="navLink"{% endif %}>
-										{{ p.title }}
-									</a>
-								</li>{% endif %}{% endfor %}
-					</ul>
-				</nav>
-				<h1><a href="https://gogetfunding.com/savemadagascar/"><img class="ico-nav" src="/media/logo/logo_smmadagascar_colour_clean.png"></a> <a href="/">Save Madagascar</a></h1>
-			</div>
+			{% include main_navbar.html %}
 		</header>
 
 		<div class="content">
 		{% if page.lang_id == 'home'%}
 			<section class="hero">
 				<div class="small-container">
-					<p class="quote" style="color:white">"{{ site.data.translations[page.lang].quote }}"<br>- Manoj Bhargava</p>
+					<p class="quote" style="color:white">{{ site.data.translations[page.lang].quote }}<br>- Manoj Bhargava</p>
 				</div>
 			</section>
 		{%endif%}
