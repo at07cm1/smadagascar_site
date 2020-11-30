@@ -2,9 +2,9 @@
   <nav class="main-nav">
     <div class="columns" style="font-size:0.8em">
       <ul>
-      {% for post in site.html_pages %}
-        {% if post.lang_id == page.lang_id %}
-          <li {% if post.lang == page.lang %}class="navLink active"{% endif %}><a href="{{ post.url }}">{{ post.lang }}</a></li>
+      {% for p in site.html_pages %}
+        {% if p.lang_id == page.lang_id %}
+          <li {% if p.lang == page.lang %}class="active"{% endif %}><a href="{{ p.url }}" {% if p.url == page.url %}class="navLink active"{% else %}class="navLink"{% endif %}>{{ p.lang }}</a></li>
         {% endif %}
       {% endfor %}
       </ul>
