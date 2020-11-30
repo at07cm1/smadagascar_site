@@ -1,5 +1,16 @@
 <div class="container">
   <nav class="main-nav">
+  <ul>
+  {% for post in site.html_pages %}
+    {% if post.lang_id == page.lang_id %}
+      <li {% if p.lang == page.lang %}class="active"{% endif %}><a href="{{ post.url }}">{{ post.lang }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+  </nav>
+</div>
+<div class="container">
+  <nav class="main-nav">
     <ul>
       {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
       {% for p in navigation_pages %}
