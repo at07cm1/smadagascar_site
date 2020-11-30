@@ -13,8 +13,6 @@ We want to say a **big thank you** for your support!
 
 After a year of hard work, meticulous planning, and preparation, we went online a week ago when we launched our first [fundraising campaign](https://gogetfunding.com/savemadagascar/).
 
-<!--more-->
-
 Your response was overwhelming, with people rushing from all over the world to support us in solving the urgent problems of Toliara.
 Today, a week after we went online, we are delighted to share this world map presenting the regions of people joining us and supporting our mission.
 
