@@ -1,14 +1,14 @@
 ---
-title: "The entire world has embraced Save Madagascar"
+title: "The entire world embraced us"
 layout: post
 category: Stories
 lang_id: map
 lang: en
-avatar: "/media/post_pictures/map/map_first_week.pdf"
-fb_avatar: "/media/post_pictures/map/map_first_week.pdf"
+avatar: "/media/post_pictures/map/map_first_week_square.png"
+fb_avatar: "/media/post_pictures/map/map_first_week.png"
 fb_description: "We want to say a big thank you for your support!"
 gallery_images:
-  - /media/post_pictures/map/map_first_week.pdf
+  - /media/post_pictures/map/map_first_week.png
 ---
 
 We want to say a **big thank you** for your support!
