@@ -47,17 +47,17 @@
 			{{ content }}
 		</div>
 		<footer>
-			<!-- <div class="container">
+			<div class="container">
 				<nav class="main-nav">
         <ul>
         {% for post in site.html_pages %}
 					{% if post.lang_id == page.lang_id %}
-	        	<li><a href="{{ post.url }}">{{ post.lang }}</a></li>
+	        	<li {% if post.lang == page.lang %}class="active"{% endif %}><a href="{{ post.url }}">{{ post.lang }}</a></li>
 					{% endif %}
         {% endfor %}
         </ul>
 				</nav>
-			</div> -->
+			</div>
 		</footer>
 		<!-- Optional JavaScript -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
