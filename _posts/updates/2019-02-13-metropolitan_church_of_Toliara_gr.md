@@ -1,5 +1,5 @@
 ---
-title: "Μητροπολιτικός Ναός Τολιάρας"
+title: "Μητροπολιτικός ναός Τολιάρας"
 layout: post
 category: Updates
 lang_id: well
