@@ -15,11 +15,16 @@
             <a href="{{ post.url }}"><img class="rounded-img" src={{ post.avatar }} width="200"></a>
           </div>
           <div class="column two_thirds" style="text-align:left">
-            <div>{{ post.excerpt | truncate: 300 }}</div>
+            <div>
+              {{ post.excerpt | truncate: 250 }}
+              {% if post.excerpt != post.content %}
+                <a href="{{ post.url }}">{{ site.data.translations[page.lang].more }}</a>
+              {% endif %}
+            </div>
           </div>
         </div>
       {% else %}
-        <div>{{ post.excerpt | truncate: 300 }}</div>
+        <div>{{ post.excerpt | truncate: 250 }}</div>
       {% endif %}
     </div>
   {% endif %}
