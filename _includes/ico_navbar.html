@@ -5,19 +5,19 @@
     {% for p in pages %}
       {% if icoNavbarPages contains p.lang_id and p.lang == page.lang %}
       <li>
-        <a href="{{ p.url }}"><img class="ico-nav" src="/media/logo/contact.svg" alt="Contact us page."></a>
+        <a href="{{ p.url }}"><img class="ico-nav" src="{{ p.ico }}"></a>
       </li>
       {% endif %}
     {% endfor %}
 
-    <li>
+    <!-- <li>
       <a href=/contact.html><img class="ico-nav" src="/media/logo/contact.svg" alt="Contact us page."></a>
     </li>
     <li>
       <a href=/support.html><img class="ico-nav" src="/media/logo/Heart-hand-shake.svg" alt="Support page."></a>
-    </li>
+    </li> -->
     <li>
-      <a href="https://gogetfunding.com/savemadagascar/"><img class="ico-nav" src="/media/logo/gogetfunding_logo.png" alt="Fundraising campaign."></a>
+      <a href="https://gogetfunding.com/savemadagascar/"><img class="ico-nav" src="/media/logo/gogetfunding_logo.png"></a>
     </li>
   </ul>
 </nav>
