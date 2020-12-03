@@ -1,7 +1,7 @@
 ---
 title: "Ευχαριστούμε το περιοδικό Reporter"
 layout: post
-category: News
+category: Stories
 lang_id: reporter
 lang: gr
 avatar: "/media/post_pictures/reporter_thank_you/reporter_logo_square.png"
