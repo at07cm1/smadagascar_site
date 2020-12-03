@@ -16,13 +16,13 @@
           </div>
           <div class="column two_thirds" style="text-align:left">
             <div>
-              {{ post.excerpt | truncate: 300 | strip_html}}
+              {{ post.excerpt | strip_html | truncate: 300 }}
               <a href="{{ post.url }}">{{ site.data.translations[page.lang].more }}</a>
             </div>
           </div>
         </div>
       {% else %}
-        <div>{{ post.excerpt | truncate: 300 | strip_html }}</div>
+        <div>{{ post.excerpt | strip_html | truncate: 300 }}</div>
         <a href="{{ post.url }}">{{ site.data.translations[page.lang].more }}</a>
       {% endif %}
     </div>
