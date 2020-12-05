@@ -4,7 +4,7 @@ layout: post
 category: Stories
 lang_id: thousand_members
 lang: gr
-avatar: "/media/post_pictures/thousand_members/croud_square.jpg"
+avatar: "/media/post_pictures/thousand_members/kids_food_square.jpg"
 fb_avatar: "/media/post_pictures/thousand_members/kids_food_square.jpg"
 fb_description: "Η κοινότητά μας έφτασε τα 1000 μέλη! Από εμάς, 1000 ευχαριστώ."
 ---
