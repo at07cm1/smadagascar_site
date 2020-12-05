@@ -5,7 +5,7 @@ category: Stories
 lang_id: thousand_members
 lang: en
 avatar: "/media/post_pictures/thousand_members/croud_square.jpg"
-fb_avatar: "/media/post_pictures/thousand_members/croud_square.jpg"
+fb_avatar: "/media/post_pictures/thousand_members/kids_food_square.jpg"
 fb_description: "Our community has reached 1000 members! A huge thank you from all of us."
 ---
 
