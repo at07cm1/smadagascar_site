@@ -332,22 +332,7 @@ a.badgeToDecorate {
 	}
 }
 
-/* ------------ */
 
-/* .gallery {
-  margin: 5px;
-  float: left;
-  height: 200px;
-}
-
-.gallery img {
-  height: 100%;
-  width: auto;
-}
-
-.gallery img:hover {
-	outline: 3px solid #09670b;
-} */
 
 * {
   box-sizing: border-box;
@@ -379,4 +364,22 @@ a.badgeToDecorate {
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
+}
+
+@media (max-width: 768px) {
+	.g-column {
+	  -ms-flex: 50%; /* IE10 */
+	  flex: 50%;
+	  max-width: 50%;
+	  padding: 0 4px;
+	}
+}
+
+@media (max-width: 576px) {
+	.g-column {
+	  -ms-flex: 100%; /* IE10 */
+	  flex: 100%;
+	  max-width: 100%;
+	  padding: 0 4px;
+	}
 }
