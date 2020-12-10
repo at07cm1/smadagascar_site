@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="google-site-verification" content="Aium2l_eFKum8Ek6OyfKInQP8HuowJhomN29m2XmptU" />
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+		<link rel="stylesheet" href="/css/style.css">
+		<meta property="og:type"        content="website" />
+		<meta property="og:url"                content="{{ page.url }}" />
+		<meta property="og:title"              content="{{ page.title }}" />
+		<meta property="og:description"        content="{% if page.fb_description %}{{page.fb_description}}{% else %}{{ page.excerpt | truncate: 100 | strip_html}}{% endif %}" />
+		<meta property="og:image"              content="{% if page.fb_avatar %}{{site.url | append: page.fb_avatar }}{% elsif page.fb_avatar %}{{ site.url | append: page.avatar }}{% endif %}" />
+
+	</head>
+	<body>
+		<!-- Load Facebook SDK for JavaScript -->
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="vxzrrerB"></script>
+
+		<header>
+			{% include main_navbar.html %}
+		</header>
+
+		<div class="content">
+		{% if page.lang_id == 'home'%}
+			<section class="hero">
+				<div class="small-container">
+					<p class="quote" style="color:white">{{ site.data.translations[page.lang].quote }}<br>- Manoj Bhargava</p>
+				</div>
+			</section>
+		{%endif%}
+
+		<!-- <div class="container">
+			<div class="columns">
+				{% include ico_navbar.html %}
+			</div>
+			{{ content }}
+		</div> -->
+		{{ content }}
+		<footer>
+			<div class="container">
+				<nav class="main-nav">
+        <ul>
+				{% assign allPages = site.html_pages | concat: site.posts | sort: "lang" %}
+        {% for p in allPages %}
+					{% if p.lang_id == page.lang_id %}
+						<li {% if p.lang == page.lang %}class="active"{% endif %}><a href="{{ p.url }}" {% if p.url == page.url %}class="navLink active"{% else %}class="navLink"{% endif %}>{{ p.lang }}</a></li>
+					{% endif %}
+        {% endfor %}
+        </ul>
+				</nav>
+			</div>
+		</footer>
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+		<script src="/assets/js/badgeGrid.js"></script>
+		<script src="/assets/js/swiped-events.js"></script>
+	</body>
+</html>
