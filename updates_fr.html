@@ -1,0 +1,17 @@
+---
+layout: default
+title: Actions
+navigation_weight: 2
+lang_id: updates
+lang: fr
+---
+
+<div class="container">
+	<div class="blog-posts spacing">
+		<h1>{{ site.data.translations[page.lang].stories }}:</h1>
+		{% include post_list_layout.html content="Stories" %}
+		<hr>
+		<h1>{{ site.data.translations[page.lang].updates }}:</h1>
+		{% include post_list_layout.html content="Updates" %}
+	</div>
+</div>
