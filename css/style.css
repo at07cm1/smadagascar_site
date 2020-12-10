@@ -350,6 +350,10 @@ a.badgeToDecorate {
 	padding: 0;
 }
 
+.gallery [class*="col-"] {
+	padding-left: 4px;
+	padding-right: 4px;
+}
 
 /*
 .gallery {
