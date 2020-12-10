@@ -2,7 +2,7 @@
 title: "Metropolitan church of Toliara"
 layout: post
 category: Updates
-lang_id: well
+lang_id: church
 lang: en
 avatar: "/media/post_pictures/metropolitan_church_of_toliara/3_square.jpg"
 fb_avatar: "/media/post_pictures/metropolitan_church_of_toliara/2.jpg"

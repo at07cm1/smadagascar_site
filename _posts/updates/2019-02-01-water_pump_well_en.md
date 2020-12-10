@@ -2,7 +2,7 @@
 title: "Water pump well"
 layout: post
 category: Updates
-lang_id: church
+lang_id: well
 lang: en
 avatar: "/media/post_pictures/water_pump_well/well_square.jpg"
 fb_avatar: "/media/post_pictures/water_pump_well/well_square.jpg"
