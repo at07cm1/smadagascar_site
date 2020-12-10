@@ -338,6 +338,14 @@ a.badgeToDecorate {
   box-sizing: border-box;
 }
 
+
+.gallery img:hover {
+	outline: 3px solid #09670b;
+}
+
+
+
+/*
 .gallery {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -347,12 +355,6 @@ a.badgeToDecorate {
   box-sizing: border-box;
 }
 
-.gallery img:hover {
-	outline: 3px solid #09670b;
-}
-
-
-/* Create four equal columns that sits next to each other */
 .g-column {
   -ms-flex: 33%; /* IE10 */
   flex: 33%;
@@ -366,20 +368,4 @@ a.badgeToDecorate {
   width: 100%;
 }
 
-@media (max-width: 768px) {
-	.g-column {
-	  -ms-flex: 50%; /* IE10 */
-	  flex: 50%;
-	  max-width: 50%;
-	  padding: 0 4px;
-	}
-}
-
-@media (max-width: 576px) {
-	.g-column {
-	  -ms-flex: 100%; /* IE10 */
-	  flex: 100%;
-	  max-width: 100%;
-	  padding: 0 4px;
-	}
-}
+*/

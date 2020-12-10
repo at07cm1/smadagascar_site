@@ -9,7 +9,7 @@ layout: default
 		{{ content }}
 		{% if page.gallery_images %}
 			{% assign c = page.gallery_images.size | divided_by: 3 %}
-			<div class="container">
+			<div class="container gallery">
 				<div class="row justify-content-center no-gutters">
 					<div class="col-md-12 col-lg-3">
 						{% for img in page.gallery_images limit:c %}
