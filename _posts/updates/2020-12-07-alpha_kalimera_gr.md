@@ -4,7 +4,8 @@ layout: post
 category: Stories
 lang_id: alpha_kalimera
 lang: gr
-avatar: "/media/post_pictures/alpha_kalimera/alpha_kalimera.png"
+avatar: "/media/post_pictures/alpha_kalimera/alpha_kalimera_square.png"
+fb_avatar: "/media/post_pictures/alpha_kalimera/alpha_kalimera_overview.jpg"
 ---
 
 Ευχαριστούμε τη δημοσιογράφο Κατερίνα Αγαπητού και τον τηλεοπτικό σταθμό ALPHA για τη φιλοξενία στην εκπομπή *ALPHA καλημέρα*.
