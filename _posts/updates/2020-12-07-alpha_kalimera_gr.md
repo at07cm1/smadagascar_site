@@ -4,7 +4,7 @@ layout: post
 category: Stories
 lang_id: alpha_kalimera
 lang: gr
-avatar: "/media/post_pictures/alpha_kalimera/alpha_kalimera_square.png"
+avatar: "/media/post_pictures/alpha_kalimera/alpha_kalimera_logo_square.png"
 fb_avatar: "/media/post_pictures/alpha_kalimera/alpha_kalimera_overview.jpg"
 ---
 
