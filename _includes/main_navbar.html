@@ -13,7 +13,7 @@
   </nav>
 </div>
 <div class="container">
-  <nav class="main-nav">
+  <!-- <nav class="main-nav">
     <ul>
       {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
       {% for p in navigation_pages %}
@@ -26,6 +26,26 @@
         {% endif %}
       {% endfor %}
     </ul>
+  </nav> -->
+  <nav class="navbar navbar-expand-lg bg-transparent">
+    {% for p in navigation_pages %}{% if p.lang_id=="home" and p.lang == page.lang %}<a href="{{ p.url }}"  class="navbar-brand  align-items-center">Save Madagascar</a>{% endif %}{% endfor %}
+
+    <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar ml-auto d-lg-flex align-items-center">
+        {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+        {% for p in navigation_pages %}
+          {% if p.navigation_weight and p.lang == page.lang %}
+            <li {% if p.url == page.url %}class="nav-item h-100 active"{%else%} class="nav-item h-100"{% endif %}>
+              <a href="{{ p.url }}" {% if p.url == page.url %}class="nav-link active"{% else %}class="nav-link"{% endif %}>
+              {{p.title}}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
   </nav>
-  <h1><a href="https://gogetfunding.com/savemadagascar/"><img class="ico-nav" src="/media/logo/logo_smmadagascar_colour_clean.png"></a> {% for p in navigation_pages %}{% if p.lang_id=="home" and p.lang == page.lang %}<a href="{{ p.url }}">Save Madagascar</a>{% endif %}{% endfor %}</h1>
 </div>

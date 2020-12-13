@@ -107,6 +107,22 @@ nav.main-nav li a {
 	padding: 10px;
 }
 
+nav.navbar li,
+nav.navbar a {
+	display: inline-block;
+}
+.navbar-brand {
+	font-size: 2em;
+}
+nav.navbar {
+	margin: 0px;
+	padding: 0px;
+}
+nav.navbar ul {
+	margin: 0px;
+	padding: 0px;
+}
+
 a.active {
 	color: #FF0000;
 }
@@ -231,7 +247,7 @@ p.sub-text {
 }
 hr {
 	border: 1px solid #eee;
-	margin: 60px 0;
+	margin: 30px 0;
 }
 
 textarea,
@@ -332,8 +348,6 @@ a.badgeToDecorate {
 	}
 }
 
-
-
 * {
   box-sizing: border-box;
 }
@@ -354,28 +368,3 @@ a.badgeToDecorate {
 	padding-left: 4px;
 	padding-right: 4px;
 }
-
-/*
-.gallery {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-  box-sizing: border-box;
-}
-
-.g-column {
-  -ms-flex: 33%; /* IE10 */
-  flex: 33%;
-  max-width: 33%;
-  padding: 0 4px;
-}
-
-.g-column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-*/
