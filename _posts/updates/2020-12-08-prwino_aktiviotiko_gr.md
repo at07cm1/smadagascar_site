@@ -11,7 +11,7 @@ fb_avatar: "/media/post_pictures/prwino_aktiviotiko/prwino_aktiviotiko_overview.
 Ευχαριστούμε τον active Radio και τον Λούη Πατσαλίδη για τη δημοσιοποίηση της δράσης μας, μέσω της εκπομπής *πρωινό ακτιβιοτικό*.
 
 <div class="spacing">
-	<center>
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/KeqhykvcfmM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	</center>
+	<div class="videoWrapper">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/KeqhykvcfmM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>	
+	</div>
 </div>
