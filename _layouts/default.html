@@ -13,7 +13,14 @@
 		<meta property="og:title"              content="{{ page.title }}" />
 		<meta property="og:description"        content="{% if page.fb_description %}{{page.fb_description}}{% else %}{{ page.excerpt | truncate: 100 | strip_html}}{% endif %}" />
 		<meta property="og:image"              content="{% if page.fb_avatar %}{{site.url | append: page.fb_avatar }}{% elsif page.fb_avatar %}{{ site.url | append: page.avatar }}{% endif %}" />
-
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=bOXqPGyrGA">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=bOXqPGyrGA">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=bOXqPGyrGA">
+		<link rel="manifest" href="/site.webmanifest?v=bOXqPGyrGA">
+		<link rel="mask-icon" href="/safari-pinned-tab.svg?v=bOXqPGyrGA" color="#5bbad5">
+		<link rel="shortcut icon" href="/favicon.ico?v=bOXqPGyrGA">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body>
 		<!-- Load Facebook SDK for JavaScript -->
