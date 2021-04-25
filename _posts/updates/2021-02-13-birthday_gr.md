@@ -21,13 +21,13 @@ fb_description: "Γιορτάσαμε τα δεύτερα μας γενέθλι�
 <div class="container">
 <div class="row">
     <div class="col-md-12 col-lg-6" >
-    <a href="#"><img src="/media/post_pictures/second_birthday/cake.jpg" style="height:300px; display: block;
+    <a href="/media/post_pictures/second_birthday/cake.jpg"><img src="/media/post_pictures/second_birthday/cake.jpg" style="height:300px; display: block;
   margin-left: auto;
   margin-right: auto;"></a>
     </div>
 
     <div class="col-md-12 col-lg-6">
-    <a href="#"><img src="/media/post_pictures/second_birthday/Maria_and_Stelios_cake.jpg" style="height:300px; display: block;
+    <a href="/media/post_pictures/second_birthday/Maria_and_Stelios_cake.jpg"><img src="/media/post_pictures/second_birthday/Maria_and_Stelios_cake.jpg" style="height:300px; display: block;
   margin-left: auto;
   margin-right: auto;"></a>
     </div>
