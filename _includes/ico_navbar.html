@@ -3,14 +3,23 @@
     {% assign pages = site.html_pages %}
     {% assign icoNavbarPages = "contact, support" | split: ", " %}
     {% for p in pages %}
-      {% if icoNavbarPages contains p.lang_id and p.lang == page.lang %}
-      <li>
-        <a href="{{ p.url }}"><img class="ico-nav" src="{{ p.ico }}"></a>
-      </li>
-      {% endif %}
-    {% endfor %}
+    {% if icoNavbarPages contains p.lang_id and p.lang == page.lang %}
     <li>
-      <a href="https://gogetfunding.com/savemadagascar/"><img class="ico-nav" src="/media/logo/gogetfunding_logo.png"></a>
+      <a href="{{ p.url }}"><img class="ico-nav" src="{{ p.ico }}"></a>
     </li>
+    {% endif %}
+    {% endfor %}
+
+
+    <li>
+      <a href="https://www.facebook.com/smsavemadagascar/"><img class="ico-nav" src="/media/logo/facebook_logo.png"
+          alt="Facebook page."></a>
+    </li>
+
+    <li><a href="https://www.instagram.com/sm_savemadagascar/"><img class="ico-nav" src="/media/logo/instagram_logo.png"
+          alt="Instagram page."></a></li>
+
+
+
   </ul>
 </nav>
