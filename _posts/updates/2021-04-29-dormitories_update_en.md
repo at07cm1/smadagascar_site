@@ -19,7 +19,7 @@ gallery_images:
   # - /media/post_pictures/dormitories_update/9.jpg
   # - /media/post_pictures/dormitories_update/10.jpg
   # - /media/post_pictures/dormitories_update/11.jpg
-  # - /media/post_pictures/dormitories_update/12.jpg
+  - /media/post_pictures/dormitories_update/12.jpg
   - /media/post_pictures/dormitories_update/13.jpg
 ---
 
