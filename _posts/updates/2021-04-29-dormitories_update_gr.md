@@ -11,14 +11,14 @@ gallery_images:
   - /media/post_pictures/dormitories_update/1.jpg
   - /media/post_pictures/dormitories_update/2.jpg
   - /media/post_pictures/dormitories_update/3.jpg
-  - /media/post_pictures/dormitories_update/4.jpg
-  - /media/post_pictures/dormitories_update/5.jpg
-  - /media/post_pictures/dormitories_update/6.jpg
-  - /media/post_pictures/dormitories_update/7.jpg
-  - /media/post_pictures/dormitories_update/8.jpg
-  - /media/post_pictures/dormitories_update/9.jpg
-  - /media/post_pictures/dormitories_update/10.jpg
-  - /media/post_pictures/dormitories_update/11.jpg
+  # - /media/post_pictures/dormitories_update/4.jpg
+  # - /media/post_pictures/dormitories_update/5.jpg
+  # - /media/post_pictures/dormitories_update/6.jpg
+  # - /media/post_pictures/dormitories_update/7.jpg
+  # - /media/post_pictures/dormitories_update/8.jpg
+  # - /media/post_pictures/dormitories_update/9.jpg
+  # - /media/post_pictures/dormitories_update/10.jpg
+  # - /media/post_pictures/dormitories_update/11.jpg
   - /media/post_pictures/dormitories_update/12.jpg
   - /media/post_pictures/dormitories_update/13.jpg
 ---
