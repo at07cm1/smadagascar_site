@@ -1,4 +1,5 @@
 en:
+  current: Current action
   stories: Stories
   updates: Updates
   more: Read more
@@ -6,16 +7,10 @@ en:
   sponsors: Sponsors
   # about: Who we are
 gr:
+  current: Τρέχουσα δράση
   stories: Νέα
   updates: Δράσεις
   more: Διάβασε περισσότερα
   quote: Ήρθε η ώρα να σταματήσουμε να μιλάμε για ευαισθητοποίηση και έμπνευση, ήρθε η ώρα να λάβουμε δράση!
   sponsors: Χορηγοί
   # about: Σχετικά με εμάς
-fr:
-  stories: Histoires
-  updates: Actions
-  more: Lire la suite
-  quote: Il est temps d'arrêter de parler de conscience et d'inspiration, il est temps de faire quelque chose!
-  sponsors: Sponsors
-  # about: À propos de nous
