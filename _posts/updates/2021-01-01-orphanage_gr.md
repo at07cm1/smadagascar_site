@@ -23,9 +23,9 @@ gallery_images:
 
 ### <ins>Έρανος Gogetfunding:</ins>
 
-<div class="spacing">
- <iframe src='https://gogetfunding.com/embed-widget2?campaignid=7647916&frame_type=t2' style='width:100%; height:290px; border: none;' scrolling='no'></iframe>
- </div>
+<div class="gogetFundingHorizontalWidget"><iframe src='https://gogetfunding.com/embed-widget2?campaignid=7647916&frame_type=t2' style='width:100%; height:290px; border: none;' scrolling='no'></iframe></div>
+
+<div class="gogetFundingBoxWidget"><iframe src='https://gogetfunding.com/embed-widget2?campaignid=7647916&frame_type=t3' style='width:100%;height: 310px;border: none;' scrolling='no'></iframe></div>
 
 Ο χρόνος κατασκευής του έργου έχει υπολογισθεί στον ένα χρόνο καθώς τα τούβλα που θα χρησιμοποιηθούν πρέπει να κατασκευαστούν επί τόπου με τοπικό χώμα. Το έργο έχει κοστολογηθεί στα 100 χιλιάδες ευρώ, τα οποία θα καλύψουν τα υλικά κατασκευής και τον μισθό δύο οικοδόμων που έχουν εργοδοτηθεί μόνιμα από την δράση.
 

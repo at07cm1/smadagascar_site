@@ -367,10 +367,43 @@ a.badgeToDecorate {
 	font-weight: normal;
 }
 
+.gogetFundingBoxWidget{
+	display: block; 
+	width: 100px;
+	height: 250px;
+	margin:auto;
+}
+.gogetFundingHorizontalWidget{
+	display: block; 
+	width: 500px;
+	height: 200px;
+	margin:auto;
+	vertical-align: middle;
+}
+
 @media (max-width: 640px) {
 	.quote-card:after {
 	  font-size: 22em;
 	  right: -25px;
+	}
+	.gogetFundingBoxWidget{
+		
+		display: block;
+		visibility: visible;
+	}
+	.gogetFundingHorizontalWidget{
+		display: none;
+		visibility: hidden;
+	}
+}
+@media (min-width: 640px) {
+	.gogetFundingBoxWidget{
+		display: none;
+		visibility: hidden;
+	}
+	.gogetFundingHorizontalWidget{
+		display: block;
+		visibility: visible;
 	}
 }
 

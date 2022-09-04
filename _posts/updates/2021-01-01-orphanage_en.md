@@ -24,9 +24,9 @@ Travelling to South Madagascar, many contrasting images and unimaginable realiti
 Thus, we set our new goal, to build a prototype orphanage, within a restricted area. It will provide a safe and secure environment, where children, who would otherwise be killed as a result of being the second twin, can live and get education without fear for their lives. The orphanage complex will include a school, a clinic, a sports field and an activity centre where the children can get in touch with the land and nature.
 
 ### <ins>Gogetfunding campaign</ins>:
-<div class="spacing">
- <iframe src='https://gogetfunding.com/embed-widget2?campaignid=7647916&frame_type=t2' style='width:100%; height:290px; border: none;' scrolling='no'></iframe>
- </div>
+<div class="gogetFundingHorizontalWidget"><iframe src='https://gogetfunding.com/embed-widget2?campaignid=7647916&frame_type=t2' style='width:100%; height:290px; border: none;' scrolling='no'></iframe></div>
+
+<div class="gogetFundingBoxWidget"><iframe src='https://gogetfunding.com/embed-widget2?campaignid=7647916&frame_type=t3' style='width:100%;height: 310px;border: none;' scrolling='no'></iframe></div>
 
 Construction time is estimated at around a year, since the bricks have to be manufactured on site with local soil. The total costs are around 100 thousand euros, which iclude sourcing of the building materials and a salary for two builders who are permanently employed by our movement.
 
