@@ -370,13 +370,13 @@ a.badgeToDecorate {
 .gogetFundingBoxWidget{
 	display: block; 
 	width: 100px;
-	height: 250px;
+	height: 310px;
 	margin:auto;
 }
 .gogetFundingHorizontalWidget{
 	display: block; 
 	width: 500px;
-	height: 200px;
+	height: 290px;
 	margin:auto;
 	vertical-align: middle;
 }
